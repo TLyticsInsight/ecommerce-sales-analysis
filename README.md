@@ -57,11 +57,10 @@ This project focuses on analyzing sales data from an e-commerce platform to:
 ### ✅ Top 20 Products
 ![Top 20 SKU Category Bestselling Products](images/Top_20_Category_Bestselling_Products.png)
 
-- These are the most frequently sold SKUs among shipped orders.
+- These are the most frequently sold Category among shipped orders.
 
 ### ✅ Bottom 20 Products
 ![Bottom 20 Least-Selling Products](images/Bottom_20_SKU(Category)_Bestselling_Products.png)
-- Sales trends by shipping city and state.
 
 ### I plan to explore Promotion ID data in greater depth in the next phase of the analysis.
 
