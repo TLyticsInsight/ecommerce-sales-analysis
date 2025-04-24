@@ -115,4 +115,5 @@ I am currently working on understanding the impact of cancellations and returns.
 ## Author
 
 **TLyticsInsight**  
-Exploring data to create value. Connect on LinkedIn or follow on GitHub!
+Exploring data to create value. Connect on [LinkedIn] or follow on [GitHub](https://github.com/TLyticsInsight)!  
+Return to the [Analytics Portfolio](https://tlyticsinsight.github.io/Analytics-Portfolio/) for more insights.
