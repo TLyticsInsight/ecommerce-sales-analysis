@@ -1,0 +1,407 @@
+[33mcommit d8845b5b20341047eb3fa866128a31cc48086a80[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Mayu <TLyticsInsight@users.noreply.github.com>
+Date:   Thu Apr 24 23:34:53 2025 +0900
+
+    Update index.html and style.css
+
+[33mcommit f533fc8b6f1cb8d40771e5d420dd898db0b2f3bf[m
+Author: Mayu <TLyticsInsight@users.noreply.github.com>
+Date:   Thu Apr 24 22:36:51 2025 +0900
+
+    Updated index.html with latest changes
+
+[33mcommit 7a89315bab7a423228ffeb89a19d19c95f5f2bd6[m
+Author: Mayu <TLyticsInsight@users.noreply.github.com>
+Date:   Sat Mar 29 02:13:33 2025 +0900
+
+    Update .github/workflows/qiita.yml
+
+[33mcommit 5870b41dc081f49bb0777a8f8ef8b97542b1d9fc[m
+Author: Mayu <TLyticsInsight@users.noreply.github.com>
+Date:   Sat Mar 29 00:52:39 2025 +0900
+
+    Fix script and update Qiita articles
+
+[33mcommit 288b9b54d86099927096897158b2ef2a86935209[m
+Author: Mayu <TLyticsInsight@users.noreply.github.com>
+Date:   Sat Mar 29 00:24:31 2025 +0900
+
+    Fix YAML indentation
+
+[33mcommit 7cb3500cbf148e78f6b905e4ee27fad1dae3f0d8[m
+Author: Mayu <TLyticsInsight@users.noreply.github.com>
+Date:   Fri Mar 28 23:58:35 2025 +0900
+
+    Update fetch_qiita.py and workflow
+
+[33mcommit a41584e12a1701eef83944b90e7575faea07b8fe[m
+Author: Mayu <TLyticsInsight@users.noreply.github.com>
+Date:   Fri Mar 28 01:17:14 2025 +0900
+
+    Qiita APIの統合修正と記事リストの更新
+
+[33mcommit 8ca352d31ad8234eb6a12fd7865b5592737365b5[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Wed Mar 26 15:33:36 2025 +0900
+
+    Update fetch_qiita.py
+
+[33mcommit ee69fd5a3b5105d7c295718a5c8abdfc4fde256d[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Wed Mar 26 15:28:44 2025 +0900
+
+    Update fetch_qiita.py
+
+[33mcommit b9670aa3e17bb3b91d0950255538b59149ceaff2[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Tue Mar 25 21:51:34 2025 +0900
+
+    Update fetch_qiita.py
+
+[33mcommit 1944522c669e9c5709735e8a7102f3972542e99a[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Tue Mar 25 03:00:33 2025 +0900
+
+    Update fetch_qiita.py
+
+[33mcommit 12d035627cc8efcdeb468d6dd73f247832834e64[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Sat Mar 22 23:13:34 2025 +0900
+
+    Update style.css
+
+[33mcommit 0e5cf5cce27c46189e649336b9653dc305b25002[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Sat Mar 22 23:12:26 2025 +0900
+
+    Update style.css
+
+[33mcommit e2ae253f7a0d1f6466acb3f065ff74a5f406fcd5[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Sat Mar 22 23:11:08 2025 +0900
+
+    Update README.md
+
+[33mcommit e552a6034430583e62ba5b6ab9b88059efaa953c[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Sat Mar 22 22:54:09 2025 +0900
+
+    Update fetch_qiita.py
+
+[33mcommit fa7899614c9e0728e7d99b30073739d4756149f8[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Sat Mar 22 22:22:58 2025 +0900
+
+    Update qiita.yml
+
+[33mcommit b6a0e669842253899e16a5a574869c0a6a0db279[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Sat Mar 22 22:01:53 2025 +0900
+
+    Update qiita.yml
+
+[33mcommit 651398bfd408a960a46fd4db7f5ce81d14e8a8ba[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Sat Mar 22 21:53:57 2025 +0900
+
+    Update fetch_qiita.py
+
+[33mcommit 7e082aab4791925fc868d9dda605e6c487d9d175[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Sat Mar 22 21:36:57 2025 +0900
+
+    Update fetch_qiita.py
+
+[33mcommit ee7a8ba3365fae6480009ecc29bb4bcd816d2d34[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Fri Mar 21 23:28:10 2025 +0900
+
+    Update index.html
+
+[33mcommit c9294b9a08e67213a226cadf61f0190ba3911c31[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Fri Mar 21 23:06:16 2025 +0900
+
+    Update style.css
+
+[33mcommit c627bfbecbc36cccbdce6876f1d87c18ee013c42[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Fri Mar 21 23:05:20 2025 +0900
+
+    Update index.html
+
+[33mcommit 2c0265ffd36d13a399cb0df2bd0c8dbfed49df54[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Fri Mar 21 21:15:46 2025 +0900
+
+    Update qiita.yml
+
+[33mcommit e8f78a9aa3f6b61905fcaad9d49626a8c1e7cd64[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Thu Mar 20 03:30:15 2025 +0900
+
+    Create fetch_readme.js
+
+[33mcommit 5782d12dc7276a45df55101c6e286bb0539a0af4[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Thu Mar 20 03:29:25 2025 +0900
+
+    Update style.css
+
+[33mcommit af0acc14f2253b741865834ed581bf7810050e63[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Thu Mar 20 03:25:17 2025 +0900
+
+    Update index.html
+
+[33mcommit f4778f65d170168f0bcff9747037cd632f85bc90[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Thu Mar 20 00:19:39 2025 +0900
+
+    Create style.css
+
+[33mcommit 1ea9711b9b24e1c3403a1e95ccdb2e1b8abd6043[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Thu Mar 20 00:19:03 2025 +0900
+
+    Create index.html
+
+[33mcommit 6d8c517bf5a150f82b64dfcfa222ef99214ea2ed[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Wed Mar 19 23:56:39 2025 +0900
+
+    Update fetch_qiita.py
+
+[33mcommit bdfdf698a25bbe3f15a0cd2f4c37a432205313b0[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Wed Mar 19 23:53:10 2025 +0900
+
+    Update qiita.yml
+
+[33mcommit f9bbae20bec0478cc29f9c3554bd6d760a94336e[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Wed Mar 19 14:23:12 2025 +0900
+
+    Create fetch_qiita.py
+
+[33mcommit c0ddfbc43e4ff45a32e1b543ddd1b9ec665c9ca6[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Wed Mar 19 14:21:13 2025 +0900
+
+    Update qiita.yml
+
+[33mcommit 2fbb7339137f057d2b053ed8f9421e0419b7b271[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Wed Mar 19 14:13:07 2025 +0900
+
+    Update qiita.yml
+
+[33mcommit 65659827c7e477e9aee0d5945c765ddd637667c0[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Wed Mar 19 14:11:12 2025 +0900
+
+    Update qiita.yml
+
+[33mcommit ff01b19a6bfd4e1eeddabc5136180d8c23fa2f76[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Wed Mar 19 12:20:19 2025 +0900
+
+    Update qiita.yml
+
+[33mcommit 4ebaf5aa6a5a38d603a8f25d9910cf49646be756[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Wed Mar 19 12:07:36 2025 +0900
+
+    Update qiita.yml
+
+[33mcommit 6196fddf7421115ec8489221b854818c01514e63[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Wed Mar 19 12:05:28 2025 +0900
+
+    Update qiita.yml
+
+[33mcommit 0428d20d0d4aea773e48e11723b4bb05188dbe70[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Wed Mar 19 12:02:25 2025 +0900
+
+    Update qiita.yml
+
+[33mcommit a8bd3d4a614bfae051157150e8dc6927bbcf1ecc[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Wed Mar 19 00:15:38 2025 +0900
+
+    Update qiita.yml
+
+[33mcommit bb99b5d1b49f09be30db9eff4766975e9cdca20e[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Wed Mar 19 00:12:49 2025 +0900
+
+    Update qiita.yml
+
+[33mcommit b8641c6c467bbd4b05e55d67d309b5056bfd603d[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Tue Mar 18 23:59:32 2025 +0900
+
+    Update qiita.yml
+
+[33mcommit 56540d08af28568b289a364a768c053d82b5e2ee[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Tue Mar 18 23:54:03 2025 +0900
+
+    Update qiita.yml
+
+[33mcommit c2fc9c184ba33e582d3a268255875f87e11e5cbb[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Tue Mar 18 23:51:20 2025 +0900
+
+    Update qiita.yml
+
+[33mcommit d85e8392a3a0ffb2ff83ad16d8f8666060298f90[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Tue Mar 18 23:47:30 2025 +0900
+
+    Update qiita.yml
+
+[33mcommit 7a1c09236e1f9ede60a9963381fa3ad2d8cbac32[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Tue Mar 18 22:52:07 2025 +0900
+
+    Update qiita.yml
+
+[33mcommit e570a6c8cd012c97681c6dfacd10ed1f1fb2bff3[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Tue Mar 18 22:48:11 2025 +0900
+
+    Update qiita.yml
+
+[33mcommit fd79654533f4f8ecbb4ab22ab774d7462219da88[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Tue Mar 18 22:34:42 2025 +0900
+
+    Update README.md
+
+[33mcommit 2e9e04311e0ee72d84e466ddc034ba0fb0f5590a[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Tue Mar 18 22:31:59 2025 +0900
+
+    Update README.md
+
+[33mcommit 9e3c90dec3ffc9b2715724e2c839aac2ae9d9914[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Tue Mar 18 22:28:04 2025 +0900
+
+    Update README.md
+
+[33mcommit 8a697cb15af8f06d0c63af807e3c279edff5ca14[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Mon Mar 17 22:48:24 2025 +0900
+
+    Add Qiita sync workflow
+
+[33mcommit 8f50caf7d13412fc082418b6785c053d2e7289a8[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Mon Mar 17 16:15:01 2025 +0900
+
+    Update README.md
+
+[33mcommit 7625729164a57ce3300c7c64e580071a0630bcec[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Mon Mar 17 16:11:08 2025 +0900
+
+    Update README.md
+
+[33mcommit cf9a1cc1009d050fb9e28d2ac7efcbf7d205c74a[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Mon Mar 17 16:08:48 2025 +0900
+
+    Update README.md
+
+[33mcommit a0e6fa57e42da4eb9f8c43db2f223a91e5efea71[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Mon Mar 17 16:05:53 2025 +0900
+
+    Update README.md
+
+[33mcommit 53fa42b60772a000d9544ae7cdc398d3e3cef549[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Thu Mar 13 19:14:24 2025 +0900
+
+    Update README.md
+
+[33mcommit bb75f5e69973fa7c44d3b35b354409edbaebc041[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Thu Mar 13 16:49:41 2025 +0900
+
+    Update README.md
+
+[33mcommit c6a68ca3af0bd747285409b949eaf81029e7ca83[m
+Author: TLyticsInsight <202900345+TLyticsInsight@users.noreply.github.com>
+Date:   Thu Mar 13 15:36:45 2025 +0900
+
+    Update README.md
+
+[33mcommit b8abace11171dacaafd875c9b0660c937ddb553f[m
+Author: mt-Analytics <202900345+mt-Analytics@users.noreply.github.com>
+Date:   Wed Mar 12 21:10:12 2025 +0900
+
+    Update README.md
+
+[33mcommit a1345c550bb8b4c01233466cca1ea3a987515f94[m
+Author: mt-Analytics <202900345+mt-Analytics@users.noreply.github.com>
+Date:   Wed Mar 12 17:55:58 2025 +0900
+
+    Update README.md
+
+[33mcommit 9571abf2eeca7d34266192f0b68ddea40083ac3f[m
+Author: mt-Analytics <202900345+mt-Analytics@users.noreply.github.com>
+Date:   Wed Mar 12 17:46:37 2025 +0900
+
+    Update README.md
+
+[33mcommit e2b3b155268c9add0a97d4ccda110f9d95cab749[m
+Author: mt-Analytics <202900345+mt-Analytics@users.noreply.github.com>
+Date:   Wed Mar 12 17:30:41 2025 +0900
+
+    Update README.md
+
+[33mcommit 2ee59209fa712d03bc7f23e8bc752d562acd48ac[m
+Author: mt-Analytics <202900345+mt-Analytics@users.noreply.github.com>
+Date:   Wed Mar 12 16:23:25 2025 +0900
+
+    Update README.md
+
+[33mcommit 0502b009513e1f4a8870f4f0395e4721574d8ccd[m
+Author: mt-Analytics <202900345+mt-Analytics@users.noreply.github.com>
+Date:   Wed Mar 12 16:20:17 2025 +0900
+
+    Update README.md
+
+[33mcommit 37e41703654b2a511e6d5cee55ef401227ad34f2[m
+Author: mt-Analytics <202900345+mt-Analytics@users.noreply.github.com>
+Date:   Wed Mar 12 16:14:08 2025 +0900
+
+    Update README.md
+
+[33mcommit 3d60c8bee74cea4f963341b2fd7502af1baf383f[m
+Author: mt-Analytics <202900345+mt-Analytics@users.noreply.github.com>
+Date:   Wed Mar 12 16:10:23 2025 +0900
+
+    Update README.md
+
+[33mcommit 417548f4d45fa2582acef24a0fbb0c41c74cbaf7[m
+Author: mt-Analytics <202900345+mt-Analytics@users.noreply.github.com>
+Date:   Wed Mar 12 16:08:47 2025 +0900
+
+    Update README.md
+
+[33mcommit 7d0e6d07eafb7487ccb30a15213a6c0a8d1d3cd2[m
+Author: mt-Analytics <202900345+mt-Analytics@users.noreply.github.com>
+Date:   Wed Mar 12 16:03:37 2025 +0900
+
+    Update README.md
+
+[33mcommit fd390d1014dcbc390b0bf3a18ce046581d44f059[m
+Author: mt-Analytics <mayu.mayu.taiwan@gmail.com>
+Date:   Wed Mar 12 14:42:32 2025 +0900
+
+    Initial commit

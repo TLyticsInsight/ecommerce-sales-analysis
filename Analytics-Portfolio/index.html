@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TLyticsInsight: Analytics Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- GitHubのマークダウン用CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
+  <style>
+    /* セクション全体の背景色 */
+    #qiita-articles {
+      background-color: #fff5f8; /* 薄いピンク */
+      padding: 20px;
+    }
+    /* ブログカードのスタイル */
+    .blog-card {
+      background-color: #ffffff; /* 白色 */
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      padding: 15px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .blog-card h3 {
+      margin-top: 0;
+    }
+    .blog-card p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align:center">TLyticsInsight: Analytics Portfolio</h1>
+
+  <!-- GitHub Portfolio Section -->
+  <section class="card" id="qiita-articles">
+    <div id="readme-container" class="readme-content markdown-body"></div>
+  </section>
+
+  <!-- Data Analysis Graph Section (Placeholder) -->
+  <section class="card" id="qiita-articles">
+    <h2 class="section-title">Data Analysis in Progress</h2>
+    <p>
+      <a href="https://github.com/TLyticsInsight/ecommerce-sales-analysis/blob/main/README.md" class="simple-link-card" target="_blank">Visit Data Analysis Project</a>
+    </p>
+  </section>
+
+  <!-- Qiita記事一覧 Section -->
+  <section class="card" id="qiita-articles">
+    <h2>◆ My Qiita Articles</h2>
+    <div id="articles-list">
+      <!-- 記事がここに表示されます -->
+    </div>
+  </section>
+
+  <!-- Marked.jsを読み込み -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="fetch_readme.js"></script>
+
+  <script>
+    async function fetchQiitaArticles() {
+      try {
+        const userId = 'TLyticsInsight';
+        const response = await fetch(`https://qiita.com/api/v2/users/${userId}/items`);
+        const articles = await response.json();
+  
+        const articlesContainer = document.getElementById('articles-list');
+        articles.forEach(article => {
+          const articleElement = document.createElement('div');
+          articleElement.classList.add('blog-card');
+          articleElement.innerHTML = `
+            <div class="card-content">
+              <h3><a href="${article.url}" target="_blank">${article.title}</a></h3>
+              <p>${new Date(article.created_at).toLocaleDateString()}</p>
+            </div>
+          `;
+          articlesContainer.appendChild(articleElement);
+        });
+      } catch (error) {
+        console.error('Qiita記事の取得に失敗しました', error);
+      }
+    }
+  
+    window.onload = () => {
+      fetchQiitaArticles();
+  
+      const modified = new Date(document.lastModified);
+      const options = { year: 'numeric', month: 'short', day: 'numeric' };
+      const updateInfo = document.createElement('p');
+      updateInfo.textContent = `Last updated: ${modified.toLocaleDateString('en-US', options)}`;
+      updateInfo.className = 'update-info';
+      document.body.appendChild(updateInfo);
+    };
+  </script>  
+</body>
+</html>
