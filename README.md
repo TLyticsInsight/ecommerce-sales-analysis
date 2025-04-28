@@ -39,7 +39,7 @@ I am using **Python**, specifically **Jupyter Notebook** and **VSCode**, for dat
 ## 📈 Key Visualizations
 
 ### ✅ Top 20 Bestselling Products
-![Top 20 SKU Category Bestselling Products](images/Top_20_SKU(Category)_Bestselling_Products.png)
+![Top 20 SKU Category Bestselling Products](/images/Top_20_SKU(Category)_Bestselling_Products.png)
 - These are the most frequently sold SKUs among shipped orders.
 
 ### ✅ Bottom 20 Least-Selling Products
