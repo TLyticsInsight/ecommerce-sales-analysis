@@ -13,6 +13,8 @@ This project focuses on analyzing sales data from an e-commerce platform to:
 - Understand sales trends by category, size, city, and promotion
 - Suggest potential improvement strategies
 
+I am using **Python**, specifically **Jupyter Notebook** and **VSCode**, for data analysis and visualization.
+
 ---
 
 ## 🔍 Dataset
