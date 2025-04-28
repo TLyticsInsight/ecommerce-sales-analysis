@@ -43,7 +43,7 @@ I am using **Python**, specifically **Jupyter Notebook** and **VSCode**, for dat
 - These are the most frequently sold SKUs among shipped orders.
 
 ### ✅ Bottom 20 Least-Selling Products
-![Bottom 20 Least-Selling Products](images/Bottom_20_SKU(Category)_Bestselling_Products.png)
+![Bottom 20 Least-Selling Products](/ecommerce-sales-analysis/images/Bottom_20_SKU(Category)_Bestselling_Products.png)
 - Products with the lowest quantities sold.
 
 ### ✅ Top 20 Shipping Cities
