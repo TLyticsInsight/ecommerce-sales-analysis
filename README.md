@@ -39,11 +39,11 @@ I am using **Python**, specifically **Jupyter Notebook** and **VSCode**, for dat
 ## 📈 Key Visualizations
 
 ### ✅ Top 20 SKUs by Quantity
-![Top 20 SKUs by Quantity for Shipped status with valid Currency and Amount](images/Top_20_SKU_Bestselling_Products.png)
+![Top 20 SKUs by Quantity for Shipped status with valid Currency and Amount](images/Top_20_SKU.png)
 - These are the most frequently sold SKUs among shipped orders.
 
 ### ✅ Bottom 20 SKUs by Quantity
-![Bottom 20 SKUs by Quantity for Shipped status with valid Currency and Amount](images/Bottom_20_SKU_Bestselling_Products.png)
+![Bottom 20 SKUs by Quantity for Shipped status with valid Currency and Amount](images/Bottom_20_SKU.png)
 - Products with the lowest quantities sold.
 
 ### ✅ Top 20 Shipping Cities
@@ -62,7 +62,7 @@ I am using **Python**, specifically **Jupyter Notebook** and **VSCode**, for dat
 - These are the most frequently sold Category among shipped orders.
 
 ### ✅ Bottom 20 Category by Quantity
-![Bottom Categories by Quantity for Shipped Status with Valid Currency and Amount](images/Bottom_20_SKU(Category)_Bestselling_Products.png)
+![Bottom Categories by Quantity for Shipped Status with Valid Currency and Amount](images/Bottom_20_Category.png)
 
 ### I plan to explore Promotion ID data in greater depth in the next phase of the analysis.
 
