@@ -44,7 +44,6 @@ I am using **Python**, specifically **Jupyter Notebook** and **VSCode**, for dat
 
 ### ✅ Bottom 20 SKUs by Quantity
 ![Bottom 20 SKUs by Quantity for Shipped status with valid Currency and Amount](images/Bottom_20_SKU.png)
-- Products with the lowest quantities sold.
 
 ### ✅ Top 20 Shipping Cities
 ![Top_20_City_Bestselling_Products](images/Top_20_City_Bestselling_Products.png)
