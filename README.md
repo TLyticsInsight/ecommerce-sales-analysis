@@ -38,31 +38,31 @@ I am using **Python**, specifically **Jupyter Notebook** and **VSCode**, for dat
 
 ## 📈 Key Visualizations
 
-### ✅ Top 20 Bestselling Products
-![Top 20 SKU Category Bestselling Products](images/Top_20_SKU(Category)_Bestselling_Products.png)
+### ✅ Top 20 SKUs by Quantity
+![Top 20 SKUs by Quantity for Shipped status with valid Currency and Amount](/ecommerce-sales-analysis/images/Top_20_SKU_Bestselling_Products.png)
 - These are the most frequently sold SKUs among shipped orders.
 
-### ✅ Bottom 20 Least-Selling Products
-![Bottom 20 Least-Selling Products](images/Bottom_20_SKU(Category)_Bestselling_Products.png)
+### ✅ Bottom 20 SKUs by Quantity
+![Bottom 20 SKUs by Quantity for Shipped status with valid Currency and Amount](/ecommerce-sales-analysis/images/Bottom_20_SKU_Bestselling_Products.png)
 - Products with the lowest quantities sold.
 
 ### ✅ Top 20 Shipping Cities
-![Top_20_City_Bestselling_Products](images/Top_20_City_Bestselling_Products.png)
+![Top_20_City_Bestselling_Products](/ecommerce-sales-analysis/images/Top_20_City_Bestselling_Products.png)
 ### ✅ Top 20 Shipping States
-![Top_20_State_Bestselling_Products](images/Top_20_State_Bestselling_Products.png)
+![Top_20_State_Bestselling_Products](/ecommerce-sales-analysis/images/Top_20_State_Bestselling_Products.png)
 
 ### ✅ Bottom 20 Shipping Cities
-![Bottom_20_City_Bestselling_Products](images/Bottom_20_City_Bestselling_Products.png)
+![Bottom_20_City_Bestselling_Products](/ecommerce-sales-analysis/images/Bottom_20_City_Bestselling_Products.png)
 ### ✅ Bottom 20 Shipping States
-![Bottom_20_State_Bestselling_Products](images/Bottom_20_State_Bestselling_Products.png)
+![Bottom_20_State_Bestselling_Products](/ecommerce-sales-analysis/images/Bottom_20_State_Bestselling_Products.png)
 
-### ✅ Top 20 Products
-![Top 20 SKU Category Bestselling Products](images/Top_20_Category_Bestselling_Products.png)
+### ✅ Top 20 Category by Quantity
+![Top 20 Categories by Quantity for Shipped Status with Valid Currency and Amount](/ecommerce-sales-analysis/images/Top_20_Category_Bestselling_Products.png)
 
 - These are the most frequently sold Category among shipped orders.
 
-### ✅ Bottom 20 Products
-![Bottom 20 Least-Selling Products](images/Bottom_20_SKU(Category)_Bestselling_Products.png)
+### ✅ Bottom 20 Category by Quantity
+![Bottom Categories by Quantity for Shipped Status with Valid Currency and Amount](/ecommerce-sales-analysis/images/Bottom_20_SKU(Category)_Bestselling_Products.png)
 
 ### I plan to explore Promotion ID data in greater depth in the next phase of the analysis.
 
