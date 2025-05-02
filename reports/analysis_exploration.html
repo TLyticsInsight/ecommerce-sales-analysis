@@ -35,6 +35,21 @@
           color: #777;
           font-size: 0.9rem;
         }
+
+      table {
+      /*     margin: 0 auto;  センタリング */
+          border-collapse: collapse; /* 罫線を重ねずに表示 */
+          width: auto; /* 内容に合わせて自動で調整 */
+      }
+      th, td {
+          padding: 8px 12px;
+          border: 1px solid #ddd; /* 薄い灰色の罫線 */
+          text-align: left;
+      }
+      th {
+          background-color: #f4f4f4; /* ヘッダーの背景色 */
+      }
+
     </style>
 
 </head>
@@ -62,7 +77,7 @@
     <table>
         <thead>
             <tr>
-                <th>English Status</th>
+                <th>Status</th>
             </tr>
         </thead>
         <tbody>
