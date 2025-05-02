@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>May Plan: SKU Category Code Analysis</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1 {
+      text-align: center;
+    }
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 1rem;
+      margin: 1rem 0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .card a {
+      text-decoration: none;
+      color: #2a7ae2;
+      font-weight: bold;
+    }
+    .card a:hover {
+      text-decoration: underline;
+    }
+    .date {
+      color: #777;
+      font-size: 0.9rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+    table th, table td {
+      border: 1px solid #ccc;
+      padding: 0.5rem;
+      text-align: left;
+    }
+    table th {
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>May Plan: Examine SKU code structure</h1>
+
+  <h2>1. Problem Definition and Objective Clarification</h2>
+
+  <p><strong>Current Problem:</strong></p>
+  <ul>
+    <li>The SKU category codes are unclear, and two different patterns seem to exist:
+      <ul>
+        <li>
+          Example with full structure:<br>
+          <span>ABC-KR-RED-M</span> → <strong>Style - Category - Color - Size</strong>
+        </li>
+        <li>
+          Example when Color is missing:<br>
+          <span>XYZ-DR-L</span> → <strong>Style - Category - Size</strong>
+        </li>
+      </ul>
+    </li>
+    <li>The goal is to explore these structures and verify the consistency between SKU and Category codes.</li>
+  </ul>
+
+  <p><strong>Objective:</strong></p>
+  <ul>
+    <li>Use the original Kaggle CSV data to organize the SKU codes and analyze the relationship between SKU and Category.</li>
+    <li>Extract unique values from the second part of the SKU (assumed to represent Category).</li>
+    <li>Verify the correspondence between Category codes and SKU codes to identify which SKU belongs to which category.</li>
+  </ul>
+
+  <h2>2. Data Processing Steps</h2>
+
+  <ul>
+    <li>Use the CSV file with missing values removed, created in April, from the Kaggle dataset.</li>
+    <li>Extract the unique list of values from the Category column and verify the categories present in the data.</li>
+    <li>Extract the unique values from the second part of the SKU (assumed to represent the Category).</li>
+    <li>Organize these lists into a two-column table.</li>
+    <li>Check the correspondence between Category and SKU, looking for any patterns or exceptions (e.g., <em>Kurta</em> items might have "KR" in the SKU, <em>Western Dress</em> items might have "DR", etc.).</li>
+  </ul>
+
+  <h2>Example Correspondence Table</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>SKU Code (Second Part)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Kurta</td>
+        <td>KR</td>
+      </tr>
+      <tr>
+        <td>Western Dress</td>
+        <td>DR</td>
+      </tr>
+      <!-- Add more rows as needed -->
+    </tbody>
+  </table>
+
+  <h2>3. Next Steps</h2>
+
+  <ul>
+    <li>Once the data is organized, examine the patterns and exceptions to determine how to align the SKU and Category.</li>
+    <li>If necessary, perform corrections or data imputation on the SKU codes.</li>
+    <li>Finally, clean and structure the data in preparation for analysis.</li>
+  </ul>
+
+  <!-- 以下リンク部分 -->
+  <hr>
+  <h2>🔗 Related Links</h2>
+<ul>
+  <li><a href="https://tlyticsinsight.github.io/ecommerce-sales-analysis/">ecommerce-sales-analysis</a></li>
+</ul>
+
+  <hr>
+  <h2>👤 Author</h2>
+  <p><strong>TLyticsInsight</strong><br>
+  Return to the <a href="https://tlyticsinsight.github.io/Analytics-Portfolio/">Analytics Portfolio</a> for more insights.</p>
+
+</body>
+</html>

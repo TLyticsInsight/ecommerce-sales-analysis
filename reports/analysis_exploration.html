@@ -1,0 +1,112 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaggle Data Analysis Challenge Summary</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background: #f9f9f9;
+          color: #333;
+          padding: 2rem;
+          max-width: 800px;
+          margin: auto;
+        }
+        h1 {
+          text-align: center;
+        }
+        .card {
+          background: #fff;
+          border-radius: 8px;
+          padding: 1rem;
+          margin: 1rem 0;
+          box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .card a {
+          text-decoration: none;
+          color: #2a7ae2;
+          font-weight: bold;
+        }
+        .card a:hover {
+          text-decoration: underline;
+        }
+        .date {
+          color: #777;
+          font-size: 0.9rem;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Kaggle Data Analysis Challenge (April 16, 2025 - April 17, 2025)</h1>
+
+    <h2>April 16, 2025: Beginning of Data Analysis</h2>
+    <p>Downloaded the <strong>E-Commerce Sales Dataset</strong> from Kaggle and started analyzing the sales data from the Amazon Sale Report.csv.</p>
+    <p>The data is 65.7MB, and since it was difficult to analyze efficiently in Excel, I decided to use <strong>Python</strong> and <strong>Jupyter Notebook</strong> to proceed with the analysis.</p>
+    <p>After reviewing the CSV file, I found various shipping statuses, as well as quantities shipped and sales amounts. However, the data also included records for products that were in transit or marked for return, so data cleaning will be necessary. This dataset appears to be transactional data for India.</p>
+    <p>Additionally, I discovered that <strong>SKU</strong> and <strong>ASIN</strong> are identical.</p>
+    <p>I then checked shipping statuses, product categories, and size variants. I also plan to explore how regional data (such as city, state) and campaign codes influence sales.</p>
+
+    <h3>Hypotheses:</h3>
+    <ul>
+        <li>An analysis of best-selling products by gender could be interesting, but due to the lack of gender data, it may be more useful to analyze by region or campaign.</li>
+        <li>I plan to investigate the top 20 best-selling and worst-selling products and form hypotheses based on that analysis.</li>
+    </ul>
+
+    <h3>Consideration for Worst 20 Products:</h3>
+    <p>Extracting the worst 20 products resulted in too many items, making it difficult to visualize using graphs. Therefore, I plan to filter out records with <strong>"Cancelled"</strong> shipping status and focus the analysis on those.</p>
+
+    <h3>Status Details</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>English Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Shipped</td></tr>
+            <tr><td>Shipped - Delivered to Buyer</td></tr>
+            <tr><td>Cancelled</td></tr>
+            <tr><td>Shipped - Returned to Seller</td></tr>
+            <tr><td>Shipped - Picked Up</td></tr>
+            <tr><td>Pending</td></tr>
+            <tr><td>Pending - Waiting for Pick Up</td></tr>
+            <tr><td>Shipped - Returning to Seller</td></tr>
+            <tr><td>Shipped - Out for Delivery</td></tr>
+            <tr><td>Shipped - Rejected by Buyer</td></tr>
+            <tr><td>Shipping</td></tr>
+            <tr><td>Shipped - Lost in Transit</td></tr>
+            <tr><td>Shipped - Damaged</td></tr>
+        </tbody>
+    </table>
+
+    <h2>April 17, 2025: Data Processing and Missing Values Analysis</h2>
+    <p>Performed <strong>filtering by shipping status</strong> to check for missing values in the <strong>Amount</strong> and <strong>Quantity</strong> fields.</p>
+    <p>Extracted records with missing values (<strong>null</strong> or <strong>0</strong>) and investigated whether these were caused by ongoing statuses (e.g., in transit, returned) or due to <strong>human error</strong> like input mistakes.</p>
+    <p>This analysis is a crucial step to ensure the data's reliability and consistency.</p>
+
+    <h3>Next Steps:</h3>
+    <ul>
+        <li>Identify missing data and determine which statuses are causing it. If specific issues are found, data cleansing will be performed.</li>
+        <li>Continue the analysis of best-selling and worst-selling products, exploring the factors that influenced sales, such as region, campaign, and product category.</li>
+    </ul>
+
+<!-- リンク部分 -->
+<hr>
+<h2>🔗 Related Links</h2>
+
+<ul>
+  <li><a href="april-2025-eda.html">Here are the next observations from the data.</a></li>
+  <li>Return to the <a href="https://tlyticsinsight.github.io/ecommerce-sales-analysis/">E-commerce Sales Analysis Reports</a></li>
+</ul>
+
+<hr>
+
+    <h2>👤 Author</h2>
+<p><strong>TLyticsInsight</strong><br>
+Exploring data to create value. Connect on <em>LinkedIn</em> or follow on <a href="https://github.com/TLyticsInsight">GitHub</a>!<br>
+Return to the <a href="https://tlyticsinsight.github.io/Analytics-Portfolio/">Analytics Portfolio</a> for more insights.</p>
+</body>
+</html>
