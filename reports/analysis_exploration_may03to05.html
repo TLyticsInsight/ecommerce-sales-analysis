@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background: #f9f9f9;
+          color: #333;
+          padding: 2rem;
+          max-width: 800px;
+          margin: auto;
+        }
+        h1 {
+          text-align: center;
+        }
+        .card {
+          background: #fff;
+          border-radius: 8px;
+          padding: 1rem;
+          margin: 1rem 0;
+          box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .card a {
+          text-decoration: none;
+          color: #2a7ae2;
+          font-weight: bold;
+        }
+        .card a:hover {
+          text-decoration: underline;
+        }
+        .date {
+          color: #777;
+          font-size: 0.9rem;
+        }
+
+      table {
+      /*     margin: 0 auto;  センタリング */
+          border-collapse: collapse; /* 罫線を重ねずに表示 */
+          width: auto; /* 内容に合わせて自動で調整 */
+      }
+      th, td {
+          padding: 8px 12px;
+          border: 1px solid #ddd; /* 薄い灰色の罫線 */
+          text-align: left;
+      }
+      th {
+          background-color: #f4f4f4; /* ヘッダーの背景色 */
+      }
+
+    </style>
+</head>
+<body>
+    <h1>May 3rd - 5th Progress</h1>
+    <p>Since February, I have been studying Python using Progate and practicing SQL through SQLZoo. In March, I began utilizing platforms such as GitHub and Qiita to document and share my learning progress. By April, I started participating in Kaggle projects to gain hands-on experience with data analysis.</p>
+
+<p>As a beginner, I initially lacked a clear sense of the time required for EDA and analysis tasks. To simulate real-world work environments, I began setting specific goals and deadlines. For instance, one recent goal was to "deep dive into Order IDs and add the findings to my portfolio."</p>
+
+<p>While managing other commitments, I strive to maintain consistency in my learning schedule. To support this, I’ve streamlined my daily routines—such as preparing quick meals and limiting non-essential screen time. I ensure that any delays are recovered within two to three days. Maintaining a regular gym routine has also helped me stay focused and productive.</p>
+
+<p>I have been making steady progress and actively publishing my outputs on GitHub and Qiita as part of my effort to apply and internalize what I’ve learned.</p>
+
+      <hr>
+
+    <h3>  <li><a href="april-2025-eda.html">EDA Report: Sales Overview - Part 1</a></li></h3>
+    <p>This report uses a filter condition of Status == 'Shipped'. After removing rows where both the Currency and Amount columns have missing values, the final dataset contains 77,596 records. I visualized the Top 20 and Bottom 20 by SKU, Category, Shipping Cities, and States.</p>
+
+    <hr>
+
+    <p>As I proceeded with the EDA on the Kaggle dataset, I determined that in order to deepen the analysis further, it is important to first check the data structure, primary keys, record count, missing data, and any outliers. Given that the Order ID format is central to the analysis, I decided to start by investigating it.</p>
+
+    <h3>Results from the latter half of the Golden Week (GW):</h3>
+    <p>During the second half of Golden Week (GW), I focused on analyzing the patterns of Order IDs in the dataset.</p>
+
+    <h3>Exploring the Order ID Format in the Dataset</h3>
+    <p>As part of my exploratory data analysis (EDA), I focused on understanding the various patterns (formats) of Order IDs in the dataset. Here's a breakdown of my findings:</p>
+
+    <h4>1. Extracted Digit Patterns and Recorded Hyphen-Delimited Part Lengths:</h4>
+      <li>The Order ID format consists of a pattern with three segments: 3 digits - 7 digits - 7 digits.</li>
+      <li><strong>Total Order IDs:</strong> 128,975</li>
+      <li><strong>Malformed Order IDs:</strong> 0</li>
+
+    <hr>
+
+    <h4>2. Unique Record Count by Order ID:</h4>
+    <p>I analyzed the dataset to identify unique records for each Order ID.</p>
+
+    <li><strong>Total records:</strong> 128,975</li>
+    <li><strong>Unique Order IDs:</strong> 120,378</li>
+    <li><strong>Missing Order IDs:</strong> 0</li>
+    <li><strong>Valid records (duplicates excluded):</strong> 120,378</li>
+    <li><strong>Duplicate Order IDs:</strong> 8,597</li>
+    <li><strong>Order IDs not following the pattern "3 digits - 7 digits - 7 digits":</strong> 124</li>
+
+    <hr>
+
+    <h4>3. Duplicated Order IDs: 8,597 and Non-Pattern Order IDs: 124:</h4>
+    <p>I further investigated the 124 records that did not follow the '3 digits - 7 digits - 7 digits' pattern, and found that all of them followed a slightly different pattern: '1 letter + 2 digits - 7 digits - 7 digits.' Separately, I explored the 8,597 duplicated Order IDs, which all followed the '3 digits - 7 digits - 7 digits' pattern.</p>
+
+    <li><strong>Duplicated Order IDs:</strong> 8,597 (exported to CSV)</li>
+    <li><strong>Malformed Order IDs (following a different pattern):</strong> 124</li>
+
+    <hr>
+    <p>The original goal of this analysis has been to identify which products are performing well and which are not, as well as to explore the factors influencing these outcomes. Based on these findings, I aim to propose potential strategies for improvement.
+
+      As we are currently in the latter half of Golden Week in Japan, I will be taking a short break before proceeding with the next set of challenges.</p>
+      
+      <!-- リンク部分 -->
+<hr>
+<h2>🔗 Related Links</h2>
+
+<ul>
+  <li>Return to the <a href="https://tlyticsinsight.github.io/ecommerce-sales-analysis/">E-commerce Sales Analysis Reports</a></li>
+</ul>
+
+<hr>
+
+    <h2>👤 Author</h2>
+<p><strong>TLyticsInsight</strong><br>
+Exploring data to create value. Connect on <em>LinkedIn</em> or follow on <a href="https://github.com/TLyticsInsight">GitHub</a>!<br>
+Return to the <a href="https://tlyticsinsight.github.io/Analytics-Portfolio/">Analytics Portfolio</a> for more insights.</p>
+</body>
+</html>
