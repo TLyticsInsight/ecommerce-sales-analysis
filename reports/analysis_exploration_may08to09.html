@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background: #f9f9f9;
+          color: #333;
+          padding: 2rem;
+          max-width: 800px;
+          margin: auto;
+        }
+        h1 {
+          text-align: center;
+        }
+        .card {
+          background: #fff;
+          border-radius: 8px;
+          padding: 1rem;
+          margin: 1rem 0;
+          box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .card a {
+          text-decoration: none;
+          color: #2a7ae2;
+          font-weight: bold;
+        }
+        .card a:hover {
+          text-decoration: underline;
+        }
+        .date {
+          color: #777;
+          font-size: 0.9rem;
+        }
+
+      table {
+      /*     margin: 0 auto;  センタリング */
+          border-collapse: collapse; /* 罫線を重ねずに表示 */
+          width: auto; /* 内容に合わせて自動で調整 */
+      }
+      th, td {
+          padding: 8px 12px;
+          border: 1px solid #ddd; /* 薄い灰色の罫線 */
+          text-align: left;
+      }
+      th {
+          background-color: #f4f4f4; /* ヘッダーの背景色 */
+      }
+
+    </style>
+</head>
+<body>
+    <h1>May 8th - 9th Progress</h1>
+    <p>As SQL has become increasingly important in many hiring processes, I temporarily paused my Python studies and shifted my focus to SQL and database-related tasks.</p>
+<h3>Project Overview</h3>
+
+<p>My primary objective during this period was to complete the CSV import into PostgreSQL.</p> 
+<p>I focused on preparing the Amazon sales dataset for future analysis by resolving initial data import issues using PostgreSQL and pgAdmin. Full-scale data analysis is scheduled for the next phase.</p>
+
+      <hr>
+
+<h3>Key Tasks and Progress</h3>
+
+<p><strong>Data Preprocessing (Cleansing)</strong></p>
+<P>I primarily addressed errors encountered during the data import process, such as column name mismatches, date format inconsistencies, and postal code data type issues.</P>
+<P>Full-scale data cleansing (e.g., handling missing values, identifying and correcting outliers, and removing duplicates) has not yet been performed but is planned for future phases.</P>
+
+<hr>
+<h3>Debugging</h3>
+<p>I resolved errors that occurred during data import. While I used Python to identify inconsistencies and anomalies, deeper debugging—such as checking for logical flaws—will be performed later using either Python or SQL.</p>
+
+<hr>
+<h3>Database Schema Design</h3>
+<p>I created the necessary tables and columns based on the imported data and adjusted their data types accordingly.</p>
+<p>However, I have not yet worked on full schema design, including normalization or relational structure planning. That work is scheduled for a later stage.</p>
+
+<hr>
+
+<h3>Amazon E-Commerce Data Analysis – Database Setup</h3>
+<li>Tools Used: Python (pandas), PostgreSQL, pgAdmin, SQL (DDL/COPY/ALTER), Data Preprocessing</li>
+
+<li>PostgreSQL Setup: Installed PostgreSQL on my PC and configured the environment for efficient use.</li>
+
+<li>pgAdmin Exploration: Explored pgAdmin's features to manage databases more effectively.</li>
+
+<hr>
+
+<h3>Data Import Challenges</h3>
+
+<p>Encountered issues during CSV import due to mismatched column names, inconsistent date formats, and mixed postal code values.</p>
+
+<p>Resolved these by adjusting column names, converting date formats using Python, and changing the postal code column to TEXT to accommodate mixed types.</p>
+
+<hr>
+<h3>SQL Techniques</h3>
+
+<li>Performed data type conversions using ALTER TABLE.</li>
+
+<li>Used the COPY command to efficiently import large datasets.</li>
+
+<li>Verified the successful import of 128,975 records, consistent with previous validation in Python.</li>
+
+<hr>
+<h3>Key Learnings</h3>
+
+<li>Gained hands-on experience dealing with real-world data issues and resolving them using SQL and Python.</li>
+
+<li>Strengthened my ability to manage and manipulate large-scale data using PostgreSQL.</li>
+
+<li>Enhanced my skills in data preprocessing and basic debugging—critical competencies in any data analysis role.</li>
+      
+      <!-- リンク部分 -->
+<hr>
+<h2>🔗 Related Links</h2>
+
+<ul>
+  <li>Return to the <a href="https://tlyticsinsight.github.io/ecommerce-sales-analysis/">E-commerce Sales Analysis Reports</a></li>
+</ul>
+
+<hr>
+
+    <h2>👤 Author</h2>
+<p><strong>TLyticsInsight</strong><br>
+Exploring data to create value. Connect on <em>LinkedIn</em> or follow on <a href="https://github.com/TLyticsInsight">GitHub</a>!<br>
+Return to the <a href="https://tlyticsinsight.github.io/Analytics-Portfolio/">Analytics Portfolio</a> for more insights.</p>
+</body>
+</html>
