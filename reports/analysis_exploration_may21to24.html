@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background: #f9f9f9;
+          color: #333;
+          padding: 2rem;
+          max-width: 800px;
+          margin: auto;
+        }
+        h1 {
+          text-align: center;
+        }
+        .card {
+          background: #fff;
+          border-radius: 8px;
+          padding: 1rem;
+          margin: 1rem 0;
+          box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .card a {
+          text-decoration: none;
+          color: #2a7ae2;
+          font-weight: bold;
+        }
+        .card a:hover {
+          text-decoration: underline;
+        }
+        .date {
+          color: #777;
+          font-size: 0.9rem;
+        }
+
+      table {
+      /*     margin: 0 auto;  センタリング */
+          border-collapse: collapse; /* 罫線を重ねずに表示 */
+          width: auto; /* 内容に合わせて自動で調整 */
+      }
+      th, td {
+          padding: 8px 12px;
+          border: 1px solid #ddd; /* 薄い灰色の罫線 */
+          text-align: left;
+      }
+      th {
+          background-color: #f4f4f4; /* ヘッダーの背景色 */
+      }
+
+    </style>
+</head>
+<body>
+    <h1>Data Cleaning for E-commerce Sales: Preprocessing Modularization</h1>
+
+<p>Before entering university, I gained work experience handling Excel data in real-world environments. Often, there was no predecessor to guide me, and no time allocated for thorough training, so I learned to explore data contents myself, carefully examining each column’s meaning and characteristics to build a solid foundation for analysis.</p> 
+<p>Between 2017 and 2021, I attended university <strong>with the purpose of recurrent education</strong>, where I studied survey methodology, data interpretation, and practical statistics using Excel. For this analysis project, I also borrowed books on Python and PostgreSQL. However, I realized that data preprocessing and missing value handling depend heavily on context, and there is no single “correct” approach.</p>
+<p>Therefore, I focus on asking myself questions like “Where should I start?” and “What should I prioritize?” and use my experience and intuition to gradually engage with the data. Despite being new to data analysis as a profession, I believe this mindset allows me to approach projects with a practical and thoughtful perspective similar to real-world business settings.</p>
+      <hr>
+
+<h3>Data Preprocessing</h3>
+
+<p>Before diving into the analysis, thorough data preprocessing was conducted to ensure data quality and reliability. The key steps included:</p>
+
+<li><strong>Data Type Verification</strong></li>
+<P>Each column’s data type was carefully checked and corrected where necessary to prevent errors during analysis.</P>
+
+<li><strong>Missing Value Inspection</strong></li>
+<P>Missing data patterns were visualized and assessed. Rather than immediately imputing or deleting missing values, missingness was explicitly flagged as a feature to maintain analytical integrity.</P>
+
+<li><strong>Duplicate Record Detection</strong></li>
+<P><strong>No duplicate records were found in the dataset</strong>, indicating good data quality and reducing the risk of skewed analysis due to redundant entries.</P>
+
+<li><strong>Outlier Detection</strong></li>
+<P>Both IQR (Interquartile Range) and Z-score methods were applied to numeric columns such as quantity and amount to detect anomalies.</P>
+<p>Outlier counts varied depending on the method, with IQR identifying more extreme values and Z-score highlighting subtler deviations.</p>
+
+<li><strong>Categorical Rare Value Identification</strong></li>
+<P>Categories with a frequency below 1% were extracted for further review, as rare values can impact model performance or indicate data entry errors.</P>
+
+<li><strong>Validation of Key Identifiers</strong></li>
+<P>Regular expressions were used to validate critical fields like Order ID and postal codes, flagging entries that did not conform to expected formats.</P>
+
+<P>This preprocessing pipeline laid a solid foundation for subsequent analysis by improving data consistency and highlighting areas requiring special attention. The cleaned and validated dataset is saved and ready for modeling and visualization.</P>
+
+<hr>
+
+<h3>Coming Soon</h3>
+<p>Currently refining and improving the core function clean_data() in cleaning_pipeline.py.</p>
+<p>Once completed, it will be added to the portfolio.</p>
+
+<hr>
+
+<h3>Progress Update</h3>
+<p>Since my personal break following the previous report, I have been progressing steadily and efficiently, managing my time carefully to balance this project alongside other commitments, and will continue to do so.</p>
+
+      <!-- リンク部分 -->
+<hr>
+<h2>🔗 Related Links</h2>
+
+<ul>
+  <li>Return to the <a href="https://tlyticsinsight.github.io/ecommerce-sales-analysis/">E-commerce Sales Analysis Reports</a></li>
+</ul>
+
+<hr>
+
+    <h2>👤 Author</h2>
+<p><strong>TLyticsInsight</strong><br>
+Exploring data to create value. Connect on <em>LinkedIn</em> or follow on <a href="https://github.com/TLyticsInsight">GitHub</a>!<br>
+Return to the <a href="https://tlyticsinsight.github.io/Analytics-Portfolio/">Analytics Portfolio</a> for more insights.</p>
+</body>
+</html>
